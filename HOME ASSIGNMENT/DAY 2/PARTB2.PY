@@ -1,0 +1,6 @@
+no=float(input("Enter A Number (FLOAT):-"))
+intn=int(no)
+strf=str(no)
+print(f"Float Number:-{no}")
+print(f"Integer Number:-{intn}")
+print(f"String Format:-{strf}")
