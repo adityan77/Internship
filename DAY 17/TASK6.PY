@@ -25,5 +25,5 @@ class Palne():
 def test_move(vehicle):
      print(vehicle.move())
      
-vehicle=input("Enter Vehicle Name(Car,Boat,Plane!):-")
-test_move(vehicle)
+# vehicle=input("Enter Vehicle Name(Car,Boat,Plane!):-")
+test_move(car)

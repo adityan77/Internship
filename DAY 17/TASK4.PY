@@ -24,18 +24,18 @@ class Sumnumber(Number):
     def sum(a,b):
         # self.a=a
         # self.b=b
-        return a+b
+        print(a+b)
 class ProductNumber(Number):
     def Pro(a,b):
         # self.a=a
         # self.b=b
 
-        return a*b        
+        print(a*b)        
 class Final(Sumnumber,ProductNumber):
     def __init__(self):
         Sumnumber(self.a,self.b)
         ProductNumber(self.a,self.b)
 
-print(Final.sum(5,3))
-print(Final.Pro(3,4))
-
+Sumnumber.sum(2,3)
+Final.sum(5,3)
+Final.Pro(3,4)
